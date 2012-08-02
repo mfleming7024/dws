@@ -1,0 +1,68 @@
+		* {
+		text-decoration:None;
+		}
+	
+		
+		h1, h3 {
+		font-weight:Normal;
+		color:Blue;
+		}
+		
+		h2 {
+		font-style:Italic;
+		color:Red;
+		}
+		
+		p:first-letter {
+		color:Olive;
+		}
+		
+		p:first-line {
+		color:Red;
+		}
+		
+		.p1 {
+		font-family:Georgia;
+	  color:Purple;
+	  }
+	  
+	  .p2 {
+	  font-family:Cambria;
+	  color:Yellow;
+	  }
+	  
+	  .p3 {
+	  font-family:Impact;
+	  color:Olive;
+	  }
+	  
+	  .p4 {
+	  font-family:Arial;
+	  color:Orange;
+	  }
+		
+		#footer {
+		font-family:Helvetica;
+		font-size:10px;
+		}
+		
+		ul li a:hover {
+		color:Red;
+		}
+		
+		ul {
+		font-family:Impact;
+		color:Green;
+		}
+		
+		li {
+		font-size:13px;
+		}
+		
+		ol {
+		font-family:Arial;
+		}
+		
+		ol li {
+		color:Red;
+		}
