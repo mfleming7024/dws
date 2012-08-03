@@ -1,0 +1,71 @@
+body {
+background-image: url("../images/saturn.jpg");
+}
+
+p {
+color: White;
+line-height: 2;
+}
+
+p:first-line {
+color: Orange;
+}
+
+p:first-letter {
+font-size: 25px;
+font-family: Helvetica;
+color: Red;
+}
+
+ul li {
+background-color: Orange;
+list-style-type: none;
+padding: 10px;
+display: inline;
+letter-spacing: 3px;
+}
+
+ul li a {
+text-decoration: none;
+color: Black;
+}
+
+ul {
+text-align: Center;
+}
+
+ol {
+color: Orange;
+vertical-align: 2px;
+}
+
+h1 {
+font-family: "Comic Sans MS";
+text-shadow: 5px 5px 5px Orange;
+text-align: Center;
+font-size: 40px;
+color: Red;
+}
+
+img {
+border-style: Solid;
+border-color: Green;
+border-width: 10px;
+opacity: 0.4;
+margin-left: 32%;
+margin-right: 32%;
+}
+
+img:hover {
+opacity: 1.0;
+}
+
+#footer {
+text-align: Center;
+font: Italic 12px Helvetica;
+}
+
+
+
+
+
