@@ -6,6 +6,7 @@ p {
 color: White;
 line-height: 2;
 text-indent: 20px;
+word-spacing: 10px;
 }
 
 p:first-line {
@@ -16,6 +17,7 @@ p:first-letter {
 font-size: 25px;
 font-family: Helvetica;
 color: Red;
+font-weight: Bold;
 }
 
 ul li {
@@ -34,7 +36,7 @@ color: Black;
 #link:hover {
 color: Red;
 font-size: 20px;
-vertical-align: 10px;
+vertical-align: 6px;
 }
 
 ul {
@@ -51,7 +53,7 @@ text-shadow: 5px 5px 5px Orange;
 text-align: Center;
 font-size: 40px;
 color: Red;
-background-color: White;
+background-color:rgba(0,0,238,1.0); 
 text-transform: lowercase;
 }
 
