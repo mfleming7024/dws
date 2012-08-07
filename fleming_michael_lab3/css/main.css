@@ -13,27 +13,31 @@ background-color: red;
 /*Logo Ends*/
 /*Nav Starts*/
 
-#main-content .nav {
+.nav {
 background-color: red;
 float: right;
 display: block;
 }
 
-#main-content ul.nav {
+ul.nav {
 background-color: blue;
 }
 
-#main-content ul.nav li {
+ul.nav li {
 background-color: green;
 list-style-type: none;
 }
 
-#main-content ul.nav li a {
+ul.nav li a {
 background-color: orange;
 text-decoration: none;
 }
 
 /*Navigation ends*/
+
+#main-content {
+clear: both;
+}
 
 #headpara {
 float: left;
