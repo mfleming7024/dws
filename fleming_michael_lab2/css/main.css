@@ -17,7 +17,7 @@ p:first-letter {
 font-size: 25px;
 font-family: Helvetica;
 color: Red;
-font-weight: Bold;
+font-weight: bold;
 }
 
 ul li {
@@ -47,13 +47,14 @@ ol {
 background-color: Orange;
 }
 
+/*-------Fixed RGBA---------*/
+
 h1 {
 font-family: "Comic Sans MS";
 text-shadow: 5px 5px 5px Orange;
 text-align: Center;
 font-size: 40px;
-color: Red;
-background-color:rgba(0,0,238,1.0); 
+color:rgba(0,0,238,1.0); 
 text-transform: lowercase;
 }
 
