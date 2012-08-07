@@ -1,0 +1,75 @@
+body {
+width: 1080px;
+margin: auto;
+}
+
+/*Logo Starts*/
+
+h1 {
+float: left;
+background-color: red;
+}
+
+/*Logo Ends*/
+/*Nav Starts*/
+
+#main-content .nav {
+background-color: red;
+float: right;
+display: block;
+}
+
+#main-content ul.nav {
+background-color: blue;
+}
+
+#main-content ul.nav li {
+background-color: green;
+list-style-type: none;
+}
+
+#main-content ul.nav li a {
+background-color: orange;
+text-decoration: none;
+}
+
+/*Navigation ends*/
+
+#headpara {
+float: left;
+}
+
+.leftpara {
+width: 520px;
+float: left;
+padding: 0px 10px;
+}
+
+#main-content ul#gallery {
+list-style-type: none;
+
+}
+
+#main-content ul#gallery li {
+background-color: red;
+width:33%;
+float: left;
+}
+
+#main-content ul#gallery li {
+background-color: blue;
+}
+
+h3 {
+clear: left;
+}
+
+#footer {
+background-color: black;
+font: 14px Helvetica;
+color: white;
+clear:both;
+text-align: center;
+
+}
+
