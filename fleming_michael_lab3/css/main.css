@@ -61,6 +61,11 @@ float: right;
 margin-bottom: 0px;
 }
 
+ul.nav li.leftnav a{
+-webkit-border-top-left-radius: 50px;
+-webkit-border-bottom-left-radius: 50px;
+}
+
 ul.nav {
 margin-top: 0px;
 }
@@ -101,6 +106,7 @@ border-top: 1px Solid Black;
 
 h2, h3 {
 background-color: orange;
+text-align: center;
 }
 
 .leftpara {
@@ -129,8 +135,9 @@ width: 100%;
 
 #main-content ul#gallery li {
 background-color: black;
-width: 33.333%;
+width: 173px;
 float: left;
+margin-bottom: 10px;
 }
 
 #main-content ul#gallery li a img{
