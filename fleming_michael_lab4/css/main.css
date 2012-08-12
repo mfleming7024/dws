@@ -27,8 +27,8 @@ header h1 {
 	display: block;
 	float: left;
 	width: 485px;
-	height: 50px;
-	line-height: 50px;
+	height: 100px;
+	line-height: 100px;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 1.5em;
 	color: cyan;
@@ -39,6 +39,7 @@ header h1 {
 nav {
 	float: right;
 	width: 580px;
+	height: 100px;
 }
 
 nav ul {
@@ -50,20 +51,53 @@ nav ul {
 nav ul li {
 	list-style-type: none;
 	float: left;
-	width: 155px;
-	height: 3em;
+	width: 150px;
+	height: 100px;
 	line-height: 3em;
-	border-left: 1px solid cyan;
 }
 
 nav ul li a {
+	height: 100px;
 	text-decoration: none;
 	text-align: center;
 	color: cyan;
-	background-color: black;
 	display: block;
-	background-image: url('images/navsprite.png');
-	/*text-indent: -900000px; */
+	background-image: url("../images/navsprite.png");
+	text-indent: -900000px; 
+}
+
+																								/*Nav Positioning*/
+																								
+#shop {
+background-position: -150px 0px;
+}			
+
+#shop:hover {
+background-position: -150px -100px;
+}		
+
+#shop:active {
+background-position: -150px -200px;
+}																							
+
+#support {
+background-position: -300px 0px;
+}			
+
+#support:hover {
+background-position: -300px -100px;
+}		
+
+#support:active {
+background-position: -300px -200px;
+}			
+	
+#products:hover {
+background-position: 0px -100px;
+}
+																								
+#products:active {
+background-position: 0px -200px;
 }
 
 																								/*Main Content*/
