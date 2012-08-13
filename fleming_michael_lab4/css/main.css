@@ -147,7 +147,7 @@ p {
 	-moz-box-shadow: 0 1px 2px #7D7D7D;
 	box-shadow: 0 2px 4px #7D7D7D;
 	background: -webkit-gradient(linear, left top, left bottom, from(#00FFFF), to(#000000));
-	background: -moz-gradient(linear, left top, left bottom, from(#00FFFF), to(#000000));
+	background: -moz-linear-gradient(-90deg, #00FFFF, #000000);
 }
 
 																							/*Definition List*/
@@ -214,8 +214,16 @@ aside#techspecs {
 	float: left;
 	width: 520px;
 	padding: 10px;	
-}																		
-																																																																																									
+}		
+
+#techspecs {
+color: #00FFFF;
+}
+
+#techspecs li {
+color: white;																
+}
+																																																																																							
 																							/*Footer*/
 
 footer {
