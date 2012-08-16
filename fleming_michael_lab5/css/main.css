@@ -223,13 +223,13 @@ p {
 	}
 	
 	ul.nav li a {
-	font-size: 1em;
-	height: 4.5em;
-	line-height: 4.5em;
+		font-size: 1em;
+		height: 4.5em;
+		line-height: 4.5em;
 	}
 	
 	#footer {
-	font-size: 1em;
+		font-size: 1em;
 	}
 }
 
@@ -257,31 +257,31 @@ p {
 	}
 	
 	.rightpara {
-	margin: 0 auto;
-	display: block;
-	clear: both;
-	width: 94%;
+		margin: 0 auto;
+		display: block;
+		clear: both;
+		width: 94%;
 	}
 	
 	.leftpara {
-	border-right: 0px;
-	clear: both;
-	width: 94%;
+		border-right: 0px;
+		clear: both;
+		width: 94%;
 	}
 	
 	div img {
-	display: block;
-	width: 50%;
-	margin: 0px auto;
+		display: block;
+		width: 50%;
+		margin: 0px auto;
 	}
 	
 	#footer {
-	font-size: 0.7em;
+		font-size: 0.7em;
 	}
 	
 	ul.nav li a {
-	height: 4.5em;
-	line-height: 4.5em;
+		height: 4.5em;
+		line-height: 4.5em;
 	}
 	
 	ul.nav li#leftnav a {
