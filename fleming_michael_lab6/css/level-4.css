@@ -1,0 +1,94 @@
+h1 {
+font-family: Helvetica;
+text-align: center;
+}
+
+form {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+width: 900px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+font-weight: bold;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:5px;
+border: 1px solid #999;
+border: 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+legend {
+color: #09C;
+}
+
+#about {
+width: 335px;
+float: right;
+margin: 0;
+padding: 0;
+}
+
+.break {
+clear: both;
+}
+
+input {
+padding: 5px;
+}
+
+#firstname {
+margin-left: 10px;
+}
+
+#lastname {
+margin-left: 14px;
+}
+
+#website_url {
+margin-left: 20px;
+}
+
+#website_name {
+margin-left: 9px;
+}
+
+.left {
+padding: 5px;
+}
+
+#section-dob {
+height: 167px;
+width: 500px;
+float: left;
+}
+
+#section-dob #month label {
+margin-left: 20px;
+}
+
+#section-dob #year label {
+margin-left: 31px;
+}
+
+#section-dob #day label {
+margin-left: 38px;
+}
+
+#gender {
+width: 310px;
+float: right;
+}
+
+#submit {
+float: right;
+color: #09C;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}

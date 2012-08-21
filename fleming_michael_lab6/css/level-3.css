@@ -1,0 +1,71 @@
+h1 {
+font-family: Helvetica;
+text-align: center;
+}
+
+form {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+width: 500px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+font-weight: bold;
+color: #09C;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:5px;
+border: 1px solid #999;
+border: 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+label {
+float: left;
+width: 200px;
+text-align: left;
+padding-right: 5px;
+font-size: 16px;
+}
+
+input {
+padding-top: 5px;
+width: 300px;
+}
+
+.log-in {
+text-align: center;
+}
+
+.profile-link-prefix {
+color: black;
+font-size: 8.5px;
+}
+
+.note {
+font-size: 10px;
+color: black;
+}
+
+#field-agree-tos ul li {
+list-style-type: none;
+color: black;
+}
+
+#field-agree-tos ul {
+padding-left: 0;
+}
+
+#submit {
+float: right;
+width: 100px;
+color: Black;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
